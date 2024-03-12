@@ -37,7 +37,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Article()
+                    TaskCompletedView()
+//                    Article()
 //                    GreetingsImage(
 //                        stringResource(R.string.happy_birthday) + " Sam",
 //                        from = "Merouane",
